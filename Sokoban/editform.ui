@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditForm</class>
+ <widget class="QWidget" name="EditForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>543</width>
+    <height>346</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>543</width>
+    <height>346</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>543</width>
+    <height>346</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Create level</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Sokoban.ico</normaloff>Sokoban.ico</iconset>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>521</width>
+     <height>311</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="hero">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>25</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Resorses/MarioStay.gif</normaloff>../../Resorses/MarioStay.gif</iconset>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="wall">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>0</y>
+     <width>25</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Resorses/wall.jpg</normaloff>../../Resorses/wall.jpg</iconset>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="box">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>0</y>
+     <width>25</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Resorses/box.gif</normaloff>../../Resorses/box.gif</iconset>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>0</y>
+     <width>25</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Resorses/Save.png</normaloff>../../Resorses/Save.png</iconset>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_5">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>0</y>
+     <width>25</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Resorses/Exit.png</normaloff>../../Resorses/Exit.png</iconset>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>0</y>
+     <width>25</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Resorses/undored.png</normaloff>../../Resorses/undored.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

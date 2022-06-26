@@ -1,0 +1,31 @@
+﻿Сборка начата 15.01.2017 20:59:33.
+     1>Проект "D:\KR_OOP\Sokoban\Sokoban.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.4\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\5.4\msvc2013\include\QtCore /IC:\Qt\5.4\msvc2013\include\QtGui /IC:\Qt\5.4\msvc2013\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt play.cpp
+         play.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\KR_OOP\Win32\Release\\Sokoban.exe" /NOLOGO /LIBPATH:C:\Qt\5.4\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\KR_OOP\Win32\Release\Sokoban.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\KR_OOP\Win32\Release\Sokoban.lib" /MACHINE:X86 /SAFESEH Release\Sokoban.res
+         Release\box.obj
+         Release\editform.obj
+         Release\moc_editform.obj
+         Release\moc_mainwindow.obj
+         Release\moc_play.obj
+         Release\moc_saver.obj
+         Release\moc_sceneconstructor.obj
+         Release\moc_winform.obj
+         Release\hero.obj
+         Release\loader.obj
+         Release\main.obj
+         Release\mainwindow.obj
+         Release\play.obj
+         Release\saver.obj
+         Release\sceneconstructor.obj
+         Release\winform.obj
+         Sokoban.vcxproj -> D:\KR_OOP\Win32\Release\Sokoban.exe
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\KR_OOP\Win32\Release\Sokoban.bsc" /n Release\box.sbr Release\editform.sbr Release\moc_editform.sbr Release\moc_mainwindow.sbr Release\moc_play.sbr Release\moc_saver.sbr Release\moc_sceneconstructor.sbr Release\moc_winform.sbr Release\hero.sbr Release\loader.sbr Release\main.sbr Release\mainwindow.sbr Release\play.sbr Release\saver.sbr Release\sceneconstructor.sbr Release\winform.sbr
+     1>Сборка проекта "D:\KR_OOP\Sokoban\Sokoban.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:21.91
